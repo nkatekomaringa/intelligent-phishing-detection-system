@@ -1,1 +1,5 @@
+# Ignore Jupyter Notebooks when calculating the main language
 *.ipynb linguist-vendored
+
+# Force HTML files to be recognized
+*.html linguist-detectable=true
