@@ -48,14 +48,14 @@ intelligent-phishing-detection-system/
 
 ## Dataset & Preprocessing
 
-The model was trained on a combined dataset of **82,486 emails** (42,891 phishing / 39,595 legitimate).
-
-- **Data cleaning:** Removed 408 exact duplicate texts to prevent data leakage.
-- **Train/test split:** 80% training / 20% testing, stratified to maintain class balance.
-- **Feature engineering:** 5,002 features extracted per email:
-  - **5,000 TF-IDF features:** the top 5,000 most predictive words (English stop words excluded).
-  - **2 structural features:** character length and URL count.
-
+The model was trained on the public **Phishing Email Dataset** available on Kaggle (containing a mix of Enron emails, Nazario phishing emails, and SpamAssassin). 
+* **Dataset Link:** [Kaggle - Phishing Email Dataset](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset)
+* **Size:** **82,486 emails** (42,891 phishing / 39,595 legitimate).
+* **Data Cleaning:** Removed 408 exact duplicate texts to prevent data leakage.
+* **Train/Test Split:** 80% Training / 20% Testing (Stratified to maintain class balance).
+* **Feature Engineering:** Extracted **5,002 features** per email:
+  * **5,000 TF-IDF features:** The top 5,000 most predictive words (excluding English stop words).
+  * **2 Structural features:** Character length and URL count.
 ---
 
 ## Model Comparison & Results
