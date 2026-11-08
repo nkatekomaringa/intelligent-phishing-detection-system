@@ -1,5 +1,9 @@
-# Ignore Jupyter Notebooks when calculating the main language
+# Ignore Jupyter Notebooks
 *.ipynb linguist-vendored
 
-# Force HTML files to be recognized
-*.html linguist-detectable=true
+# Force Python as the primary language
+*.py linguist-detectable=true
+app.py linguist-vendored=false
+
+# Demote HTML so it doesn't take over the stats
+*.html linguist-detectable=false
