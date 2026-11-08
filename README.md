@@ -1,10 +1,10 @@
-# 🛡️ Intelligent Phishing Detection System
+# Intelligent Phishing Detection System
 
 An end-to-end machine learning application that detects phishing emails using Natural Language Processing (NLP) and structural analysis. Built with a focus on **explainability**, the system not only classifies emails but also shows *why* an email was flagged as suspicious.
 
 ---
 
-## 📖 Overview
+## Overview
 
 Phishing remains one of the most common cybersecurity threats. This project goes beyond a standard Jupyter Notebook experiment to deliver a complete, production-style pipeline. It:
 
@@ -15,7 +15,7 @@ Phishing remains one of the most common cybersecurity threats. This project goes
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 intelligent-phishing-detection-system/
@@ -46,7 +46,7 @@ intelligent-phishing-detection-system/
 
 ---
 
-## 📊 Dataset & Preprocessing
+## Dataset & Preprocessing
 
 The model was trained on a combined dataset of **82,486 emails** (42,891 phishing / 39,595 legitimate).
 
@@ -58,7 +58,7 @@ The model was trained on a combined dataset of **82,486 emails** (42,891 phishin
 
 ---
 
-## 🧠 Model Comparison & Results
+## Model Comparison & Results
 
 Multiple models were evaluated to find the best balance of precision and recall. Accuracy alone is not enough for cybersecurity: the goal is to catch phishing emails (**recall**) while minimizing false alarms (**precision**).
 
@@ -71,7 +71,7 @@ Multiple models were evaluated to find the best balance of precision and recall.
 
 ---
 
-## 🔍 Key Findings & Explainability
+## Key Findings & Explainability
 
 ### 1. The "Enron Cheat" (Dataset Bias)
 
@@ -85,7 +85,7 @@ Instead of just returning a "Phishing" label, the Flask web app acts as an expla
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Detecting Suspicious Activity
 The system flags an email and extracts the top suspicious tokens that influenced the model's decision.
@@ -99,7 +99,7 @@ The system correctly identifies a long-form corporate email as safe.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Area                | Tools                                                        |
 |---------------------|--------------------------------------------------------------|
@@ -110,7 +110,7 @@ The system correctly identifies a long-form corporate email as safe.
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 **1. Clone the repository**
 
