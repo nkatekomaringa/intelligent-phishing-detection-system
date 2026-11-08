@@ -1,2 +1,31 @@
-venv/ 
-data/ 
+# Python Virtual Environment
+venv/
+.venv/
+env/
+
+# Jupyter Notebook Checkpoints (these clutter the repo)
+.ipynb_checkpoints/
+
+# Large Datasets
+data/
+
+# Saved Machine Learning Models (too large for GitHub)
+models/
+*.pkl
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables / Secrets
+.env
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, but good for clean repos)
+.vscode/
