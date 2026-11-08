@@ -33,8 +33,8 @@ intelligent-phishing-detection-system/
 │
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
-│   ├── 02_preprocessing.ipynb
-│   └── 03_models.ipynb
+│   ├── 02_preprocessing_and_models.ipynb
+│   
 │
 ├── screenshots/                # UI screenshots for README
 │   ├── phishing_alert.png
